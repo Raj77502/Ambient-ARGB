@@ -1,0 +1,29 @@
+## WLED settings for your ESP32-S3
+
+Flash WLED onto your ESP32-S3 using the 
+official installer
+. Then open its web interface and configure these settings.
+
+
+LED type: WS281x
+LED count: 46
+GPIO: 16 (example — verify your board pinout)
+Color order: GRB
+Maximum brightness: 80 (start low).
+
+## Hyperion.NG setup
+
+Install Hyperion.NG on your Windows PC from the 
+official Windows setup guide
+.
+
+Enable screen capture for your PC display.
+
+Configure the LED layout to match your physical strip.
+
+Add a WLED device as the LED output.
+
+Enter your ESP32-S3's WLED IP address.
+
+Save the configuration and start the LED output.
+
